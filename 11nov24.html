@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    alert("alert")
+    console.log("hello in console")
+
+    let text = prompt("напишите текст")
+    document.write(text)
+
+    let Div = document.createElement('div')
+    Div.innerText = text;
+    Div.style.border = '1px solid gray';
+    document.body.append(Div)
+</script>
+    
+</body>
+</html>
